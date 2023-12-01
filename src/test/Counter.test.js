@@ -16,7 +16,7 @@ test("increments counter", async () => {
     const pElement = screen.getByText('0');
     const headingElement = screen.getByRole('heading', { name: /as/i });
 
-    expect(buttonElement[0]).toBeInTheDocument();
+    expect(buttonElement[1]).toBeInTheDocument();
 
     expect(headingElement).toBeInTheDocument();
 
