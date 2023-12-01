@@ -11,7 +11,7 @@ echo "on branch $G_BRANCH"
 # we only care to keep dev clean
 if [ $G_BRANCH == 'develop' ]; then
   yarn test:coverage &&\
-  npm run jestCoverageRatchet
+  yarn jestCoverageRatchet
 else
   exit 0
 fi
