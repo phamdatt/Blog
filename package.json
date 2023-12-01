@@ -52,7 +52,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn prepare-commit"
+      "pre-commit": "npm run prepare-commit"
     }
   }
 }
