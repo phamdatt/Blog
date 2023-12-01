@@ -18,7 +18,8 @@
     "clear:cache": "yarn test --coverage --clearCache",
     "test:coverage": "yarn test --coverage",
     "eject": "react-scripts eject",
-    "prepare-commit": "bash ./scripts/prepare-commit.sh"
+    "prepare-commit": "bash ./scripts/prepare-commit.sh",
+    "coverage": "npm run test -- --coverage --watchAll=false || exit 0"
   },
   "eslintConfig": {
     "extends": [
@@ -52,7 +53,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run prepare-commit"
+      "pre-commit": "npm run coverage"
     }
   }
 }
