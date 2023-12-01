@@ -17,7 +17,7 @@
     "test": "jest",
     "test:coverage": "yarn test --coverage",
     "eject": "react-scripts eject",
-    "precommit": "yarn test --coverage"
+    "precommit": "npx jest --coverage"
   },
   "eslintConfig": {
     "extends": [
