@@ -15,9 +15,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest",
+    "clear:cache": "yarn test --coverage --clearCache",
     "test:coverage": "yarn test --coverage",
     "eject": "react-scripts eject",
-    "precommit": "npx jest --coverage"
+    "prepare-commit": "bash ./scripts/prepare-commit.sh"
   },
   "eslintConfig": {
     "extends": [
@@ -51,7 +52,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn precommit"
+      "pre-commit": "yarn prepare-commit"
     }
   }
 }
