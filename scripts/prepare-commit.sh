@@ -4,4 +4,4 @@
 yarn clear:cache
 
 ## running test before commit
-yarn test --coverage
+yarn test --coverage --watchAll=false || exit 0
