@@ -21,7 +21,7 @@
     "test:coverage": "yarn test --coverage",
     "eject": "react-scripts eject",
     "prepare-commit": "bash ./scripts/prepare-commit.sh",
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
