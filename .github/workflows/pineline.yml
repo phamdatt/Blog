@@ -29,7 +29,7 @@ jobs:
       
     - name: Check coverage percentage
       run: |
-        COVERAGE=$(grep -oP "Statements\s*:\s*\K[0-9]+" coverage/coverage-summary.json)
+        COVERAGE=$(grep -oP "Statements\s*:\s*\K[0-9]+" coverage/lcov-report/lcov-report.txt)
         if [ "$COVERAGE" -lt 85 ]; then
           echo "Error: Coverage is less than 85%"
           exit 1
