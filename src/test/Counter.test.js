@@ -31,7 +31,7 @@ test("increments counter", async () => {
     });
     fireEvent.click(incrementBtn);
     await waitFor(() => {
-        expect(counter).toHaveTextContent("2");
+        expect(counter).toHaveTextContent("23");
     });
     // Interact with those elements
     fireEvent.click(decrementBtn);
