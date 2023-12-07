@@ -1,10 +1,10 @@
 name: Deploy Application
 on:
- push:
-  branches: [ "production" ]
- pull_request:
+  push:
     branches: [ "production" ]
- jobs:
+  pull_request:
+    branches: [ "production" ]
+jobs:
   deploy:
     runs-on: ubuntu-latest
     strategy:
@@ -16,11 +16,11 @@ on:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-    - name: Install
+    - name: Install package
       run: yarn
-    - name: Build
+    - name: Build web
       run: yarn build
-    - name: Deploy
+    - name: Deploy web
       run: |
         git config --global user.name $user_name
         git config --global user.email $user_email
@@ -31,3 +31,4 @@ on:
         user_email: 'github-actions[bot]@users.noreply.github.com'
         github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
         repository: ${{ github.repository }}
+
