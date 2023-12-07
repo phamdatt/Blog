@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dawpham/static/css/main.f855e6bc.css",
+    "main.js": "/dawpham/static/js/main.bf010671.js",
+    "static/js/787.b8abf167.chunk.js": "/dawpham/static/js/787.b8abf167.chunk.js",
+    "index.html": "/dawpham/index.html",
+    "main.f855e6bc.css.map": "/dawpham/static/css/main.f855e6bc.css.map",
+    "main.bf010671.js.map": "/dawpham/static/js/main.bf010671.js.map",
+    "787.b8abf167.chunk.js.map": "/dawpham/static/js/787.b8abf167.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.bf010671.js"
+  ]
+}
