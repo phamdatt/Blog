@@ -17,6 +17,7 @@ If you want to see coverage of project, you can run:
 ### `yarn test:coverage`
 
 ## Diagram
-![image](https://github.com/phamdatt/React-Test/assets/80441311/528a6a17-2875-454c-95dd-b98483d7f877)
+![image](https://github.com/phamdatt/React-Test/assets/80441311/dc29aab3-1294-4010-bfef-f95e1c3c29ea)
+
 
 
