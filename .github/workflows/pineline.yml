@@ -48,7 +48,7 @@ jobs:
 
     - name: Deploying to gh-pages
       run:
-        git remote set-url origin https://${github_token}@github.com/${GITHUB.REPOSITORY}.git
-        npm run deploy
+        git remote set-url origin "https://${github_token}@github.com/${GITHUB_REPOSITORY}.git"
+        yarn deploy
       env:
         github_token: ${{ secrets.GITHUB_TOKEN }}
