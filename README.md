@@ -21,6 +21,7 @@ If you want to see coverage of project, you can run:
 
 ## How to check coverage of project, you can acess to:
 https://app.codecov.io/gh/phamdatt/React-Test?trend=7%20days
+
 ![image](https://github.com/phamdatt/React-Test/assets/80441311/91351726-28d3-438a-b99d-e856649edcb4)
 
 
