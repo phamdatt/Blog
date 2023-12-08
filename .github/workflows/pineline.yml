@@ -31,9 +31,10 @@ jobs:
       uses: codecov/codecov-action@v3
       env:
         CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+    - name: Install
+      run: yarn global add gh-pages
     - name: Build
       run: yarn build
-
     - name: Deploy
       run: |
         git config --global user.name $user_name
