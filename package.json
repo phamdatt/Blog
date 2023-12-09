@@ -60,5 +60,8 @@
       "pre-push": "yarn prepare-commit"
     }
   },
+  "prepush-if-changed": {
+    "src/**/*.js?(x)": "npm run test:unit"
+  },
   "homepage": " https://phamdatt.github.io/React-Test"
 }
