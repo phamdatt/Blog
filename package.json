@@ -19,7 +19,7 @@
     "clear:cache": "yarn test --coverage --clearCache",
     "test:coverage": "yarn test --coverage",
     "eject": "react-scripts eject",
-    "prepare-commit": "bash ./scripts/prepare-commit.sh",
+    "prepare-commit": "yarn test --coverage",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
