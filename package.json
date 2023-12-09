@@ -7,6 +7,7 @@
     "@testing-library/react": "^14.1.0",
     "@testing-library/user-event": "^13.5.0",
     "deploy-gh-pages": "^1.0.0",
+    "husky": "^8.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -22,7 +23,8 @@
     "prepare-commit": "yarn test --coverage",
     "validate_branch": "sh scripts/validate_branch_name.sh",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
