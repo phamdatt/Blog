@@ -20,6 +20,7 @@
     "test:coverage": "yarn test --coverage",
     "eject": "react-scripts eject",
     "prepare-commit": "yarn test --coverage",
+    "validate_branch": "sh scripts/validate_branch_name.sh",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
