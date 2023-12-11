@@ -54,5 +54,5 @@
   "overrides": {
     "@svgr/webpack": "$@svgr/webpack"
   },
-  "homepage": " https://phamdatt.github.io/React-Test"
+  "homepage": " https://phamdatt.github.io/Blog"
 }
